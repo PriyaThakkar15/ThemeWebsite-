@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+:root{
+    --primary:#4c51e0 ;
+}
+html,body{
+    position: relative;
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+.header-bg {
+    background-image: url("../img/bg-1.jpg");
+    background-position: center center;
+    position: relative;
+    background-size: cover;
+}
+
+/*navbar css*/
+.nav-top {
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.76);
+}
+
+.menu-content li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.menu-content li a {
+    color: #ffffff;
+}
+
+
+
+
+
+
